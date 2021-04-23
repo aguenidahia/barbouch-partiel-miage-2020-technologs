@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "83a5e91d-f9ed-46da-b23f-9a6928f70014",
+		"name": "Collection Catalogue",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ajouter des jeux",
+			"item": [
+				{
+					"name": "Ajouter Devil May Cry 5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"122\",\r\n    \"nom\":\"Devil May Cry 5\",\r\n    \"type\":\"Hack-n-Slash\",\r\n    \"description\":\"Capcom\",\r\n    \"console\":\"Playstation 4\",\r\n    \"disponible\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://0.0.0.0:3000/jeux",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"jeux"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter FINAL FANTASY 7",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"123\",\r\n    \"nom\":\"Final Fantasy 7\",\r\n    \"type\":\"JRPG\",\r\n    \"description\":\"JRPG de Square Enix\",\r\n    \"console\":\"Playstation 5\",\r\n    \"disponible\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://0.0.0.0:3000/jeux",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"jeux"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter Chono Trigger",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"121\",\r\n    \"nom\":\"Chrono Trigger\",\r\n    \"type\":\"JRPG\",\r\n    \"description\":\"JRPG de Square Enix\",\r\n    \"console\":\"SNES\",\r\n    \"disponible\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://0.0.0.0:3000/jeux",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"jeux"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Get jeux",
+			"item": [
+				{
+					"name": "Voir tous les jeux",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:3000/jeux",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "3000",
+							"path": [
+								"jeux"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
