@@ -11,4 +11,4 @@ let JeuxSchema = new Schema({
   disponible: { type: Boolean, required: true },
 });
 
-mongoose.model("Jeux", SaladSchema);
+mongoose.model("Jeux", JeuxSchema);
