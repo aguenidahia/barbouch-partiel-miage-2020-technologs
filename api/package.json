@@ -1,0 +1,19 @@
+{
+  "name": "barbouch-partiel-miage-2020-technologs",
+  "version": "1.0.0",
+  "description": "Partiel Mohamed Amine BARBOUCH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klamin220/barbouch-partiel-miage-2020-technologs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Klamin220/barbouch-partiel-miage-2020-technologs/issues"
+  },
+  "homepage": "https://github.com/Klamin220/barbouch-partiel-miage-2020-technologs#readme"
+}
