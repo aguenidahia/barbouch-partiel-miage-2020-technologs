@@ -2,7 +2,7 @@
   "name": "barbouch-partiel-miage-2020-technologs",
   "version": "1.0.0",
   "description": "Partiel Mohamed Amine BARBOUCH",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
