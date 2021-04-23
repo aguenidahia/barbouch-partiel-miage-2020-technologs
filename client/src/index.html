@@ -1,26 +1,35 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>Catalogue de Jeu</title>
-  <meta name="description" content="Partiel 2020 réalisé par Mohamed Amine BARBOUCH">
-  <meta name="author" content="Barbouch">
-  <link rel="stylesheet" href="monStyle.css">
+    <title>Catalogue de Jeu</title>
+    <meta
+      name="description"
+      content="Partiel 2020 réalisé par Mohamed Amine BARBOUCH"
+    />
+    <meta name="author" content="Barbouch" />
+    <link rel="stylesheet" href="monStyle.css" />
+  </head>
 
-</head>
-
-<body>
-
-    <form action="">
-        <label>Bonjour, à quoi voulez vous jouer ?</label>
-        <input type="text" id="genre" name="genre"><br><br>
-        <label>Nous vous proposons:</label>
-        <input type="text" id="nom_jeu" name="nom_jeu"><br><br>
-        <input type="submit" value="Submit">
+  <body>
+    <div class="contenaire">
+      <form action="">
+        <label>Bonjour, à quoi voulez vous jouer ?</label><br /><br />
+        <input type="text" id="genre" name="genre" class="input-conversation" /><br /><br />
+        <input type="submit" value="Submit" />
+        
       </form>
-
-  <!-- <script src="js/scripts.js"></script> -->
-</body>
+      <br /><br /><br />
+      <form>
+        <label>Nous vous proposons:</label><br /><br />
+        <input type="text" id="nom_jeu" name="nom_jeu" class="input-conversation" /><br /><br />
+        <label>Merci.</label><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+      <br /><br /><br />
+      <button class="input-conversation"/>Reset</button>
+    </div>
+    <!-- <script src="js/scripts.js"></script> -->
+  </body>
 </html>
