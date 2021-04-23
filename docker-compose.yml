@@ -17,6 +17,16 @@ services:
       - 3000:3000
     networks:
       - backend
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    volumes:
+      - "./client/:/usr/share/nginx/html"
+    ports:
+      - 80:80
+    networks:
+      - backend
 
 networks:
   backend: null
