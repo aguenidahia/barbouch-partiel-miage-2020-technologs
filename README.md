@@ -1,14 +1,18 @@
 # Rendu partiel Mohamed Amine BARBOUCH MIAGE Technologs
 ## Structure
-### Front : le dossier ./client
+Front : le dossier ./client
 
 ```shell
 $ cd ./client
 ```
-### API et Documentation : le dossier API 
+API: le dossier ./api 
 
 ```shell
 $ cd ./client
+```
+Documentation:  le dossier ./documentation
+```shell
+$ cd ./documentation
 ```
 ## Lancer les contenaires :
 ```shell
