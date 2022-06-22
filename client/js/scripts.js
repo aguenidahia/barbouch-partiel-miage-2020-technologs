@@ -4,7 +4,7 @@ const handleTrouverGenre = async (e) => {
 
   await axios({
     method: "get",
-    url: `http://0.0.0.0:3000/jeux`,
+    url: `http://0.0.0.0:4235/jeux`,
     withCredentials: true,
   })
   .then((res) => {
